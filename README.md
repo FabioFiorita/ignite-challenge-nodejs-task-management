@@ -30,25 +30,29 @@ Para o desenvolvimento deste projeto, foram utilizadas as seguintes ferramentas 
 
 1. Clone o repositório:
 ```bash
-git clone <https://github.com/FabioFiorita/ignite-challenge-reactjs-sample.git>
+git clone https://github.com/FabioFiorita/ignite-challenge-nodejs-task-management.git
 ```
 
 2. Acesse a pasta do projeto:
 
 ```bash
-cd ignite-challenge-reactjs-sample
+cd ignite-challenge-nodejs-task-management
 ```
 
 3. Instale as dependências:
 
 ```bash
-npm install
+bun install
 ```
 
 4. Execute o projeto:
 
 ```bash
-npm run dev
+bun run dev
 ```
 
-5. Agora, abra o navegador para ver a aplicação em execução.
+5. Agora, abra o navegador para acessar o Swagger da aplicação:
+
+```bash
+http://localhost:3000/swagger
+```
